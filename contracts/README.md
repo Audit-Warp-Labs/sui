@@ -65,11 +65,43 @@ Welcome to the smart contract repository for **AuditWarp Labs**, a decentralized
 
 ## ⚙️ On-Chain Flow
 
-```mermaid
-graph TD
+```bash
     A[Mint NFT] --> B[Submit Audit Record]
     B --> C[Audit Registry (Stores record)]
     A --> D[NFT Registry]
     E[User Registers Role] --> F[User Profile Created]
     F --> G[Verification (Optional)]
 ```
+
+## 🧪 Local Dev & Deployment
+
+```bash
+# Build all contracts
+sui move build
+
+# Run tests
+sui move test
+
+# Publish to local validator or testnet
+sui client publish --gas-budget 500000000
+```
+- 🔁 Ensure you link all modules to the correct package addresses when deploying.
+
+---
+
+## 📄 Use Cases
+- Mint NFT → Store on-chain proof of audit result
+- Register dApp roles → Link auditors to ecosystems
+- Query verified auditors → Build trust layer on-chain
+
+---
+
+## 👨‍💻 Maintained By
+AuditWarp Labs
+Led by the sr18z engineering team.
+Building modular infrastructure for on-chain auditing and identity.
+
+---
+
+## 🚨 Disclaimer
+This repository includes smart contracts designed for use on the Sui blockchain and assumes users understand Move programming, gas budgeting, and transaction flow. Use in production only after thorough testing and security review.
