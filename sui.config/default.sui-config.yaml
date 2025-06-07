@@ -1,0 +1,7 @@
+# Default Sui configuration
+network: testnet
+keystore:
+  File: ~/.sui/sui.keystore
+active_address: "<your-address-here>"
+rpc:
+  - https://fullnode.testnet.sui.io:443
