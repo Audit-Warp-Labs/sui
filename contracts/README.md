@@ -46,6 +46,12 @@ Welcome to the smart contract repository for **AuditWarp Labs**, a decentralized
 
 🔗 Example Use: Add an audit record with linked NFT and report hash. Can be queried by frontends for analytics or verification.
 
+📄 Sui Deployment (Testnet)
+
+- **Sui Audit Registry Contract Address (Testnet):** [`0xf8ee5163f71ed274e1c1cb40c8f26cbb4e03c68335e0d3ff087b4aacaabe170a`](https://testnet.suivision.xyz/package/0xf8ee5163f71ed274e1c1cb40c8f26cbb4e03c68335e0d3ff087b4aacaabe170a?tab=Code)  
+- **Deployer Address (Testnet):** [`0x768478578364d08dfc4e7c114a883602289256f0e603b64f58eb14ac288ab673`](https://testnet.suivision.xyz/account/0x768478578364d08dfc4e7c114a883602289256f0e603b64f58eb14ac288ab673)
+
+
 ---
 
 ### 3. 🧑‍💼 `sui_auditwarp::user_role_registry`
@@ -65,6 +71,13 @@ Welcome to the smart contract repository for **AuditWarp Labs**, a decentralized
 - `verify_user`: Verifies an address (only callable by contract owner)
 
 🔗 Example Use: Tag auditors by role, attach a credential link, and allow dashboard displays with verified identities.
+
+📄 Sui Deployment (Testnet)
+
+- **Sui User Roles Contract Address (Testnet):** [`0x5b978db265ec08239574ef4b2ae17d84e7de531e557c080a142763c4e11a83b2`](https://testnet.suivision.xyz/package/0x5b978db265ec08239574ef4b2ae17d84e7de531e557c080a142763c4e11a83b2?tab=Code)  
+- **Deployer Address (Testnet):** [`0x768478578364d08dfc4e7c114a883602289256f0e603b64f58eb14ac288ab673`](https://testnet.suivision.xyz/account/0x768478578364d08dfc4e7c114a883602289256f0e603b64f58eb14ac288ab673)
+
+
 
 ---
 
